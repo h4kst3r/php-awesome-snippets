@@ -1,0 +1,39 @@
+{
+    "name": "php-awesome-snippets",
+    "displayName": "PHP Awesome Snippets",
+    "version": "0.1",
+    "publisher": "HakCorp",
+    "description": "A fullset of snippets for PHP devs to boost coding productivity.",
+    "author": {
+        "name": "JH Ster"
+    },
+    "categories": [
+        "Snippets",
+        "Programming Languages"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#90caf9",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/h4kst3r/php-awesome-snippets/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/h4kst3r/php-awesome-snippets"
+    },
+    "homepage": "https://github.com/h4kst3r/php-awesome-snippets",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/php.json"
+            }
+        ]
+    }
+}
