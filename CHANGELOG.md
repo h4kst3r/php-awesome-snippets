@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.2.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.1.2...v0.2.0) (2019-04-15)
+
+
+### Features
+
+* **statement:** Add print_r snippet ([d3caaa0](https://github.com/h4kst3r/php-awesome-snippets/commit/d3caaa0))
+* **statement:** Add var_export snippet ([6e56781](https://github.com/h4kst3r/php-awesome-snippets/commit/6e56781))
+* **statement.json:** Add var_dump snippet ([45d3211](https://github.com/h4kst3r/php-awesome-snippets/commit/45d3211))
+
+
+
 ## [0.1.2](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.1.1...v0.1.2) (2019-04-15)
 
 
