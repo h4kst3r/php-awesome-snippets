@@ -1,0 +1,20 @@
+{
+    "try_catch": {
+        "prefix": "tr",
+        "body": [
+            "try {",
+            "\t${1:# code...}",
+            "} catch (${2:\\Throwable} $${3:e}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Try catch Block"
+    },
+    "throw_new_exception": {
+        "prefix": "thr",
+        "body": [
+            "throw new ${1:\\Exception}(\"${2:Error message}\");"
+        ],
+        "description": "Throw new exception statement"
+    }
+}

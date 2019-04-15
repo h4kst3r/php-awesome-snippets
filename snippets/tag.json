@@ -1,0 +1,30 @@
+{
+    "PHP_full_tag": {
+        "prefix": "php",
+        "body": [
+            "<?php $0?>"
+        ],
+        "description": "PHP open tag"
+    },
+    "PHP_open_tag": {
+        "prefix": "po",
+        "body": [
+            "<?php"
+        ],
+        "description": "PHP open tag"
+    },
+    "PHP_close_tag": {
+        "prefix": "pc",
+        "body": [
+            "?>"
+        ],
+        "description": "PHP close tag"
+    },
+    "PHP_echo_tag": {
+        "prefix": "peco",
+        "body": [
+            "<?= $${1:variable} ?>"
+        ],
+        "description": "PHP echo tag"
+    }
+}

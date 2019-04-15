@@ -1,0 +1,44 @@
+{
+    "define": {
+        "prefix": "def",
+        "body": [
+            "define(\"${1:CONST}\", \"${2:value}\");"
+        ],
+        "description": "'define' statement"
+    },
+    "include": {
+        "prefix": "inc",
+        "body": [
+            "include \"${1:path_to_filename}\";"
+        ],
+        "description": "'include' statement"
+    },
+    "include_once": {
+        "prefix": "inco",
+        "body": [
+            "include_once \"${1:path_to_filename}\";"
+        ],
+        "description": "'include_once' statement"
+    },
+    "require": {
+        "prefix": "rqr",
+        "body": [
+            "require \"${1:path_to_filename}\";"
+        ],
+        "description": "'require' statement"
+    },
+    "require_once": {
+        "prefix": "rqro",
+        "body": [
+            "require_once \"${1:path_to_filename}\";"
+        ],
+        "description": "'require_once' statement"
+    },
+    "echo": {
+        "prefix": "eco",
+        "body": [
+            "echo \"${1:text}\";"
+        ],
+        "description": "'echo' statement"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "foreach": {
+        "prefix": "fore",
+        "body": [
+            "foreach ($${1:iterable} as $${2:item}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Foreach as $item Block"
+    },
+    "foreach_key": {
+        "prefix": "forek",
+        "body": [
+            "foreach ($${1:iterable} as $${2:key} => $${3:item}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Foreach as $key => $item Block"
+    },
+    "foreach_end": {
+        "prefix": "foren",
+        "body": [
+            "foreach ($${1:iterable} as $${2:item}):",
+            "\t${0:# code...}",
+            "endforeach;"
+        ],
+        "description": "Foreach end as $item Block"
+    },
+    "foreach_end_key": {
+        "prefix": "forenk",
+        "body": [
+            "foreach ($${1:iterable} as $${2:key} => $${3:item}):",
+            "\t${0:# code...}",
+            "endforeach;"
+        ],
+        "description": "Foreach end as $key => $item Block"
+    },
+    "for_loop": {
+        "prefix": "forl",
+        "body": [
+            "for ($${1:i} = ${2:0}; $${1:i} < $${3:limit}; $${1:i}++) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "For Loop"
+    },
+    "for_end_loop": {
+        "prefix": "forlen",
+        "body": [
+            "for ($${1:i} = ${2:0}; $${1:i} < $${3:limit}; $${1:i}++):",
+            "\t${0:# code...}",
+            "endfor;"
+        ],
+        "description": "For end Loop"
+    },
+    "while_loop": {
+        "prefix": "wl",
+        "body": [
+            "while ($${1:variable} <= ${2:10}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "While Loop"
+    },
+    "while_end": {
+        "prefix": "wlen",
+        "body": [
+            "while ($${1:variable} <= ${2:10}):",
+            "\t${0:# code...}",
+            "endwhile;"
+        ],
+        "description": "While end Loop"
+    },
+    "do_while": {
+        "prefix": "dowl",
+        "body": [
+            "do {",
+            "\t${0:# code...}",
+            "} while ($${1:variable} <= ${2:10});"
+        ],
+        "description": "Do while Block"
+    }
+}
