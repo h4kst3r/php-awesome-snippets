@@ -2,7 +2,7 @@
     "define": {
         "prefix": "df",
         "body": [
-            "define(\"${1:CONST}\", \"${2:value}\");"
+            "define(\"${1:CONSTANT}\", \"${2:value}\");"
         ],
         "description": "'define' call"
     },
@@ -40,6 +40,13 @@
             "echo \"${1:text}\";"
         ],
         "description": "'echo' statement"
+    },
+    "print_r": {
+        "prefix": "pr",
+        "body": [
+            "print_r(\\$${1:variable});"
+        ],
+        "description": "'print_r' call"
     },
     "var_dump": {
         "prefix": "vd",
