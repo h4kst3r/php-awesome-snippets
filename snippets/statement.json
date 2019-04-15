@@ -47,5 +47,12 @@
             "var_dump(\\$${1:variable});"
         ],
         "description": "'var_dump' call"
+    },
+    "var_export": {
+        "prefix": "vx",
+        "body": [
+            "var_export(\\$${1:variable});"
+        ],
+        "description": "'var_export' call"
     }
 }
