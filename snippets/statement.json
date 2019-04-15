@@ -40,5 +40,12 @@
             "echo \"${1:text}\";"
         ],
         "description": "'echo' statement"
+    },
+    "var_dump": {
+        "prefix": "vd",
+        "body": [
+            "var_dump(\\$${1:variable});"
+        ],
+        "description": "'var_dump' call"
     }
 }
