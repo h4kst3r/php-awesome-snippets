@@ -23,7 +23,7 @@
     "PHP_echo_tag": {
         "prefix": "peco",
         "body": [
-            "<?= $${1:variable} ?>"
+            "<?= \\$${1:variable} ?>"
         ],
         "description": "PHP echo tag"
     }
