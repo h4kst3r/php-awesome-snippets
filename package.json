@@ -32,7 +32,39 @@
         "snippets": [
             {
                 "language": "php",
-                "path": "./snippets/php.json"
+                "path": "./snippets/conditional.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/error.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/function.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/globalvar.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/loop.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/method.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/method.php5.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/statement.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/tag.json"
             }
         ]
     }
