@@ -1,0 +1,62 @@
+{
+    "private_function_PHP5": {
+        "prefix": "prif5",
+        "body": [
+            "private function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Private function Block for PHP5"
+    },
+    "private_static_function_PHP5": {
+        "prefix": "prisf5",
+        "body": [
+            "private static function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Private static function Block for PHP5"
+    },
+    "protected_function_PHP5": {
+        "prefix": "prof5",
+        "body": [
+            "protected function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Protected function Block for PHP5"
+    },
+    "protected_static_function_PHP5": {
+        "prefix": "prosf5",
+        "body": [
+            "protected static function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Protected static function Block for PHP5"
+    },
+    "public_function_PHP5": {
+        "prefix": "pubf5",
+        "body": [
+            "public function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Public function Block for PHP5"
+    },
+    "public_static_function_PHP5": {
+        "prefix": "pubsf5",
+        "body": [
+            "public static function ${1:func_name}(${2:parameters})",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Public static function Block for PHP5"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "function": {
+        "prefix": "fn",
+        "body": [
+            "function ${1:func_name}(${2:Type} $${3:variable}): ${4:void} {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Function Block"
+    },
+    "function_PHP5": {
+        "prefix": "fn5",
+        "body": [
+            "function ${1:func_name}($${2:variable}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Function Block for PHP5"
+    }
+}

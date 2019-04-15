@@ -1,0 +1,65 @@
+{
+    "globals": {
+        "prefix": "$G",
+        "body": [
+            "$GLOBALS[\"${1:name}\"]"
+        ],
+        "description": "globals"
+    },
+    "server": {
+        "prefix": "$se",
+        "body": [
+            "$_SERVER[\"${1:name}\"]"
+        ],
+        "description": "server"
+    },
+    "request": {
+        "prefix": "$r",
+        "body": [
+            "$_REQUEST[\"${1:name}\"]"
+        ],
+        "description": "request"
+    },
+    "post": {
+        "prefix": "$p",
+        "body": [
+            "$$_POST[\"${1:name}\"]"
+        ],
+        "description": "post"
+    },
+    "get": {
+        "prefix": "$g",
+        "body": [
+            "$$_GET[\"${1:name}\"]"
+        ],
+        "description": "get"
+    },
+    "files": {
+        "prefix": "$f",
+        "body": [
+            "$$_FILES[\"${1:name}\"]"
+        ],
+        "description": "files"
+    },
+    "env": {
+        "prefix": "$e",
+        "body": [
+            "$$_ENV[\"${1:name}\"]"
+        ],
+        "description": "env"
+    },
+    "cookie": {
+        "prefix": "$c",
+        "body": [
+            "$$_COOKIE[\"${1:name}\"]"
+        ],
+        "description": "cookie"
+    },
+    "session": {
+        "prefix": "$s",
+        "body": [
+            "$$_SESSION[\"${1:name}\"]"
+        ],
+        "description": "session"
+    }
+}
