@@ -68,7 +68,7 @@
     "Switch block": {
         "prefix": "sw",
         "body": [
-            "switch ($${1:variable}) {",
+            "switch (\\$${1:variable}) {",
             "\tcase ${2:label}:",
             "\t\t${3:# code...}",
             "\t\tbreak;",
