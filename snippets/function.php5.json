@@ -1,0 +1,29 @@
+{
+    "Function PHP5": {
+        "prefix": "-fn",
+        "body": [
+            "function ${1:func_name}(\\$${2:args}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Function block PHP5"
+    },
+    "Anonymous function PHP5": {
+        "prefix": "-fna",
+        "body": [
+            "function (\\$${1:args}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function block PHP5"
+    },
+    "Anonymous function ... use PHP5": {
+        "prefix": "-fnu",
+        "body": [
+            "function (\\$${1:args}) use (\\$${2:vars}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function with use block PHP5"
+    }
+}
