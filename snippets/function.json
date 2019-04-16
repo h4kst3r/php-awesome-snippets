@@ -17,6 +17,15 @@
         ],
         "description": "Anonymous function block"
     },
+    "Anonymous function ... use": {
+        "prefix": "fnu",
+        "body": [
+            "function (${1:Type} \\$${2:args}) use (\\$${3:vars}): ${4:void} {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function with use block"
+    },
     "Function PHP5": {
         "prefix": "-fn",
         "body": [
@@ -24,7 +33,7 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Function block for PHP5"
+        "description": "Function block PHP5"
     },
     "Anonymous function PHP5": {
         "prefix": "-fna",
@@ -33,6 +42,15 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Anonymous function block for PHP5"
+        "description": "Anonymous function block PHP5"
+    },
+    "Anonymous function ... use PHP5": {
+        "prefix": "-fnu",
+        "body": [
+            "function (\\$${1:args}) use (\\$${2:vars}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function with use block PHP5"
     }
 }
