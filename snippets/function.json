@@ -8,6 +8,15 @@
         ],
         "description": "Function block"
     },
+    "Anonymous function": {
+        "prefix": "fna",
+        "body": [
+            "function (${1:Type} \\$${2:args}): ${3:void} {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function block"
+    },
     "Function PHP5": {
         "prefix": "-fn",
         "body": [
@@ -16,5 +25,14 @@
             "}"
         ],
         "description": "Function block for PHP5"
+    },
+    "Anonymous function PHP5": {
+        "prefix": "-fna",
+        "body": [
+            "function (\\$${1:args}) {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Anonymous function block for PHP5"
     }
 }
