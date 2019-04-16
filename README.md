@@ -2,7 +2,7 @@
 
 This extension provide a fullset of snippets for PHP devs. You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
-The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (in *Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
+The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (*Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
 
 Snippets are PHP7 oriented (type hinting and return type) but PHP5 compatibility is also provided (see [function](#function-snip) and [method](#method-snip) sections).
 
@@ -11,11 +11,12 @@ This work is inspired by PHPstorm snippets and other works available on VScode m
 
 ## Features
 
-These snippets try to be as intuitive as possible trying to avoid conflicts with previous or built-in snippets.
+These snippets try to be as intuitive as possible and to avoid conflicts with previous or built-in snippets.
 
-> Tip: Snippets provided in this extension support 
-> `tab` to next/previous placeholder `...` or __*`txtToReplace`*__.
+> Tip: Snippets provided in this extension support `tab` to next/previous placeholder.
 
+> Tip: If you want to use snippets and completion in placeholders 
+> look at the [Extension settings](#ext-settings) section.
 
 ### PHP tags
 
@@ -47,9 +48,30 @@ These snippets try to be as intuitive as possible trying to avoid conflicts with
 
 | Snippet | Output |
 | --- | --- |
-| fn | `function` __*`func_name`*__`(`__*`Type $args`*__`):` __*`void`*__ `{...}`|
-| fna | `function (`__*`Type $args`*__`):` __*`void`*__ `{...}`|
-| fnu | `function (`__*`Type $args`*__`) use (`__*`$vars`*__`):` __*`void`*__ `{...}`|
+| fn | `function func_name(Type $args): void {...}`|
+| fna | `function (Type $args): void {...}`|
+| fnu | `function (Type $args) use ($vars): void {...}`|
+
+## Control structures
+
+| Snippet | Output |
+| --- | --- |
+| ifb | `if (condition) {...}`|
+| ifel | `if (condition) {...} else {...}`|
+| ifelif | `if (condition) {...} elseif (condition) {...} else {...}`|
+| sw | `switch ($variable) { case 'label': ... break; ... default: ... break; }`|
+| cs | `case 'label': ... break;` *[1]*|
+| tern | `condition ? if_true : if_false;`|
+
+*[1]* Addon snippet: use with 'sw' snippet to add `case` if needed.
+
+The others `if` `else` forms are also available if needed:
+
+| Snippet | Output |
+| --- | --- |
+| ifend | `if (condition): ... endif;`|
+| ifelend | `if (condition): ... else: ... endif;`|
+| ifelifend | `if (condition): ... elseif (condition): ... else: ... endif;`|
 
 
 ## Requirements
@@ -62,9 +84,15 @@ All you need is VScode installed on your machine.
 
     `ext install php-awesome-snippets`
 
-## Extension Settings
+## <a id="ext-settings"></a>Extension Settings
 
-No settings needed
+The VScode default behavior deactivate IntelliSense suggestions when you're filling placeholders. However if you want to use completion and snippets inside placeholders :
+* Open your settings.json file ( **{ }** icon at the top right corner of the setting tab).
+
+* Add this line anywhere you want: `"editor.suggest.snippetsPreventQuickSuggestions": false`
+
+Now you can call snippets and any suggestion in placeholders without typing `Ctrl+space`.
+
 
 ## Known Issues
 
