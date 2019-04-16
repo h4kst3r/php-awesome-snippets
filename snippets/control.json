@@ -24,8 +24,8 @@
         "body": [
             "if (${1:condition}):",
             "\t${2:# code...}",
-            "elseif (${2:condition}):",
-            "\t${3:# code...}",
+            "elseif (${3:condition}):",
+            "\t${4:# code...}",
             "else:",
             "\t${0:# code...}",
             "endif;"
