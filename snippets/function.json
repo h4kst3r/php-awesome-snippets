@@ -1,20 +1,20 @@
 {
-    "function": {
+    "Function": {
         "prefix": "fn",
         "body": [
-            "function ${1:func_name}(${2:Type} $${3:variable}): ${4:void} {",
+            "function ${1:func_name}(${2:Type} $${3:args}): ${4:void} {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Function Block"
+        "description": "Function block"
     },
-    "function_PHP5": {
-        "prefix": "fn5",
+    "Function PHP5": {
+        "prefix": "-fn",
         "body": [
-            "function ${1:func_name}($${2:variable}) {",
+            "function ${1:func_name}($${2:args}) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Function Block for PHP5"
+        "description": "Function block for PHP5"
     }
 }
