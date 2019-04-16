@@ -32,7 +32,7 @@
         "snippets": [
             {
                 "language": "php",
-                "path": "./snippets/conditional.json"
+                "path": "./snippets/control.json"
             },
             {
                 "language": "php",
@@ -41,6 +41,10 @@
             {
                 "language": "php",
                 "path": "./snippets/function.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/function.php5.json"
             },
             {
                 "language": "php",
