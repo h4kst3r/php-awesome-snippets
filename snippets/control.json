@@ -69,16 +69,27 @@
         "prefix": "sw",
         "body": [
             "switch (\\$${1:variable}) {",
-            "\tcase ${2:label}:",
+            "\tcase '${2:label}':",
             "\t\t${3:# code...}",
             "\t\tbreak;",
-            "\tcase ${4:label}:",
+            "\tcase '${4:label}':",
+            "\t\t${5:# code...}",
+            "\t\tbreak;$6",
+            "\tdefault:",
             "\t\t${0:# code...}",
             "\t\tbreak;",
-            "\tdefault:",
             "}"
         ],
         "description": "Switch block"
+    },
+    "Case statement": {
+        "prefix": "cs",
+        "body": [
+            "case '${1:label}':",
+            "\t${2:# code...}",
+            "\tbreak;"
+        ],
+        "description": "Case addon block"
     },
     "Ternary operator": {
         "prefix": "tern",
