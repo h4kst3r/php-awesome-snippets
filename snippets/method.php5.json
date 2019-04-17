@@ -1,62 +1,62 @@
 {
-    "private_function_PHP5": {
-        "prefix": "prif5",
+    "Private method PHP5": {
+        "prefix": "-prif",
         "body": [
             "private function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Private function Block for PHP5"
+        "description": "Private method block PHP5"
     },
-    "private_static_function_PHP5": {
-        "prefix": "prisf5",
+    "Private static method PHP5": {
+        "prefix": "-prisf",
         "body": [
             "private static function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Private static function Block for PHP5"
+        "description": "Private static method block PHP5"
     },
-    "protected_function_PHP5": {
-        "prefix": "prof5",
+    "Protected method PHP5": {
+        "prefix": "-prof",
         "body": [
             "protected function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Protected function Block for PHP5"
+        "description": "Protected method block PHP5"
     },
-    "protected_static_function_PHP5": {
-        "prefix": "prosf5",
+    "Protected static method PHP5": {
+        "prefix": "-prosf",
         "body": [
             "protected static function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Protected static function Block for PHP5"
+        "description": "Protected static method block PHP5"
     },
-    "public_function_PHP5": {
-        "prefix": "pubf5",
+    "Public method PHP5": {
+        "prefix": "-pubf",
         "body": [
             "public function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Public function Block for PHP5"
+        "description": "Public method block PHP5"
     },
-    "public_static_function_PHP5": {
-        "prefix": "pubsf5",
+    "Public static method PHP5": {
+        "prefix": "-pubsf",
         "body": [
             "public static function ${1:func_name}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Public static function Block for PHP5"
+        "description": "Public static method block PHP5"
     }
 }

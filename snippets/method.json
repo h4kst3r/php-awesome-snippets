@@ -7,9 +7,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Class Constructor Block"
+        "description": "Class public constructor block"
     },
-    "private_function": {
+    "Private method": {
         "prefix": "prif",
         "body": [
             "private function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -17,9 +17,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Private function Block"
+        "description": "Private method block"
     },
-    "private_static_function": {
+    "Private static method": {
         "prefix": "prisf",
         "body": [
             "private static function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -27,9 +27,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Private static function Block"
+        "description": "Private static method block"
     },
-    "protected_function": {
+    "Protected method": {
         "prefix": "prof",
         "body": [
             "protected function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -37,9 +37,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Protected function Block"
+        "description": "Protected method block"
     },
-    "protected_static_function": {
+    "Protected static method": {
         "prefix": "prosf",
         "body": [
             "protected static function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -47,9 +47,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Protected static function Block"
+        "description": "Protected static method block"
     },
-    "public_function": {
+    "Public method": {
         "prefix": "pubf",
         "body": [
             "public function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -57,9 +57,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Public function Block"
+        "description": "Public method block"
     },
-    "public_static_function": {
+    "Public static method": {
         "prefix": "pubsf",
         "body": [
             "public static function ${1:func_name}(${2:parameters}): ${3:void}",
@@ -67,6 +67,6 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Public static function Block"
+        "description": "Public static method block"
     }
 }
