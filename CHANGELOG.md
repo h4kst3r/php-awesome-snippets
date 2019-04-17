@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.5.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.4.0...v0.5.0) (2019-04-17)
+
+
+### Bug Fixes
+
+* **loop.json:** Modify escaping for '$' sign avoiding VScode warnings ([a61164a](https://github.com/h4kst3r/php-awesome-snippets/commit/a61164a))
+
+
+### Features
+
+* **loop.json:** Upgrade placeholders mapping for while loops ([fef8af7](https://github.com/h4kst3r/php-awesome-snippets/commit/fef8af7))
+
+
+
 # [0.4.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.3.0...v0.4.0) (2019-04-17)
 
 
