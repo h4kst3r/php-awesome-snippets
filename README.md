@@ -63,7 +63,7 @@ These snippets try to be as intuitive as possible and to avoid conflicts with pr
 | cs | `case 'label': ... break;` *[1]*|
 | tern | `condition ? if_true : if_false;`|
 
-*[1]* Addon snippet: use with 'sw' snippet to add `case` if needed.
+###### *[1]* Addon snippet: use with 'sw' snippet to add `case` if needed.
 
 The others `if` `else` forms are also available if needed:
 
@@ -72,6 +72,26 @@ The others `if` `else` forms are also available if needed:
 | ifend | `if (condition): ... endif;`|
 | ifelend | `if (condition): ... else: ... endif;`|
 | ifelifend | `if (condition): ... elseif (condition): ... else: ... endif;`|
+
+
+### Loops structures
+
+| Snippet | Output |
+| --- | --- |
+| fore | `foreach ($iterable as $item) {...}`|
+| forek | `foreach ($iterable as $key => $item) {...}`|
+| forl | `for ($i = 0; $i < $limit; $i++) {...}`|
+| wl | `while ($variable <= $limit) {...}`|
+| dowl | `do {...} while ($variable <= $limit);`|
+
+The others loop forms are also available if needed:
+
+| Snippet | Output |
+| --- | --- |
+| foren | `foreach ($iterable as $item): {...} endforeach;`|
+| forenk | `foreach ($iterable as $key => $item): {...} endforeach;`|
+| forlen | `for ($i = 0; $i < $limit; $i++): {...} endfor;`|
+| wlen | `while ($variable <= $limit): {...} endwhile;`|
 
 
 ## Requirements

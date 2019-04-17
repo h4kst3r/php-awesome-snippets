@@ -1,83 +1,83 @@
 {
-    "foreach": {
+    "Foreach loop": {
         "prefix": "fore",
         "body": [
-            "foreach ($${1:iterable} as $${2:item}) {",
+            "foreach (\\$${1:iterable} as \\$${2:item}) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Foreach as $item Block"
+        "description": "Foreach as $item block"
     },
-    "foreach_key": {
+    "Foreach ... key ... item": {
         "prefix": "forek",
         "body": [
-            "foreach ($${1:iterable} as $${2:key} => $${3:item}) {",
+            "foreach (\\$${1:iterable} as \\$${2:key} => \\$${3:item}) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Foreach as $key => $item Block"
+        "description": "Foreach as $key => $item block"
     },
-    "foreach_end": {
+    "Foreach ... end": {
         "prefix": "foren",
         "body": [
-            "foreach ($${1:iterable} as $${2:item}):",
+            "foreach (\\$${1:iterable} as \\$${2:item}):",
             "\t${0:# code...}",
             "endforeach;"
         ],
-        "description": "Foreach end as $item Block"
+        "description": "Foreach end as $item block"
     },
-    "foreach_end_key": {
+    "Foreach ... key ... item ... end": {
         "prefix": "forenk",
         "body": [
-            "foreach ($${1:iterable} as $${2:key} => $${3:item}):",
+            "foreach (\\$${1:iterable} as \\$${2:key} => \\$${3:item}):",
             "\t${0:# code...}",
             "endforeach;"
         ],
-        "description": "Foreach end as $key => $item Block"
+        "description": "Foreach end as $key => $item block"
     },
-    "for_loop": {
+    "For loop": {
         "prefix": "forl",
         "body": [
-            "for ($${1:i} = ${2:0}; $${1:i} < $${3:limit}; $${1:i}++) {",
+            "for (\\$${1:i} = ${2:0}; \\$${1:i} < \\$${3:limit}; \\$${1:i}++) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "For Loop"
+        "description": "For loop"
     },
-    "for_end_loop": {
+    "For ... end": {
         "prefix": "forlen",
         "body": [
-            "for ($${1:i} = ${2:0}; $${1:i} < $${3:limit}; $${1:i}++):",
+            "for (\\$${1:i} = ${2:0}; \\$${1:i} < \\$${3:limit}; \\$${1:i}++):",
             "\t${0:# code...}",
             "endfor;"
         ],
-        "description": "For end Loop"
+        "description": "For end loop"
     },
-    "while_loop": {
+    "While loop": {
         "prefix": "wl",
         "body": [
-            "while ($${1:variable} <= ${2:10}) {",
+            "while (\\$${1:variable} ${2:<=} \\$${3:limit}) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "While Loop"
+        "description": "While loop"
     },
-    "while_end": {
+    "While ... end": {
         "prefix": "wlen",
         "body": [
-            "while ($${1:variable} <= ${2:10}):",
+            "while (\\$${1:variable} ${2:<=} \\$${3:limit}):",
             "\t${0:# code...}",
             "endwhile;"
         ],
-        "description": "While end Loop"
+        "description": "While end loop"
     },
-    "do_while": {
+    "Do ... while": {
         "prefix": "dowl",
         "body": [
             "do {",
             "\t${0:# code...}",
-            "} while ($${1:variable} <= ${2:10});"
+            "} while (\\$${1:variable} ${2:<=} \\$${3:limit});"
         ],
-        "description": "Do while Block"
+        "description": "Do while loop"
     }
 }
