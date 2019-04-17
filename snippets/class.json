@@ -1,0 +1,152 @@
+{
+    "Class": {
+        "prefix": "cl",
+        "body": [
+            "class ${1:ClassName}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Class block"
+    },
+    "Class extends": {
+        "prefix": "clx",
+        "body": [
+            "class ${1:ClassName} extends ${2:MotherClass}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Class extends block"
+    },
+    "Class implements": {
+        "prefix": "cli",
+        "body": [
+            "class ${1:ClassName} implements ${2:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Class implements block"
+    },
+    "Class extends implements": {
+        "prefix": "clxi",
+        "body": [
+            "class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Class extends and implements block"
+    },
+    "Abstract class": {
+        "prefix": "acl",
+        "body": [
+            "abstract class ${1:ClassName}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP abstract Class block"
+    },
+    "Abstract class extends": {
+        "prefix": "aclx",
+        "body": [
+            "abstract class ${1:ClassName} extends ${2:MotherClass}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP abstract Class extends block"
+    },
+    "Abstract class implements": {
+        "prefix": "acli",
+        "body": [
+            "abstract class ${1:ClassName} implements ${2:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP abstract Class implements block"
+    },
+    "Abstract class extends implements": {
+        "prefix": "aclxi",
+        "body": [
+            "abstract class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP abstract Class extends and implements block"
+    },
+    "Final class": {
+        "prefix": "fcl",
+        "body": [
+            "final class ${1:ClassName}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP final Class block"
+    },
+    "Final class extends": {
+        "prefix": "fclx",
+        "body": [
+            "final class ${1:ClassName} extends ${2:MotherClass}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP final Class extends block"
+    },
+    "Final class implements": {
+        "prefix": "fcli",
+        "body": [
+            "final class ${1:ClassName} implements ${2:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP final Class implements block"
+    },
+    "Final class extends implements": {
+        "prefix": "fclxi",
+        "body": [
+            "final class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP final Class extends and implements block"
+    },
+    "Interface": {
+        "prefix": "in",
+        "body": [
+            "interface ${1:InterfaceName}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Interface block"
+    },
+    "Interface extends": {
+        "prefix": "inx",
+        "body": [
+            "interface ${1:InterfaceName} extends ${2:Interfaces}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Interface extends block"
+    },
+    "Trait": {
+        "prefix": "trt",
+        "body": [
+            "trait ${1:TraitName}",
+            "{",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "PHP Trait block"
+    }
+}
