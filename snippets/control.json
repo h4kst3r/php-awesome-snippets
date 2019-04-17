@@ -1,14 +1,14 @@
 {
-    "if_endif": {
+    "If ... endif": {
         "prefix": "ifend",
         "body": [
             "if (${1:condition}):",
             "\t${0:# code...}",
             "endif;"
         ],
-        "description": "If endif Block"
+        "description": "If endif block"
     },
-    "if_else_endif": {
+    "If ... else ... endif": {
         "prefix": "ifelend",
         "body": [
             "if (${1:condition}):",
@@ -17,31 +17,31 @@
             "\t${0:# code...}",
             "endif;"
         ],
-        "description": "If else endif Block"
+        "description": "If else endif block"
     },
-    "if_else_if_endif": {
+    "If ... elseif ... else ... endif": {
         "prefix": "ifelifend",
         "body": [
             "if (${1:condition}):",
             "\t${2:# code...}",
-            "elseif (${2:condition}):",
-            "\t${3:# code...}",
+            "elseif (${3:condition}):",
+            "\t${4:# code...}",
             "else:",
             "\t${0:# code...}",
             "endif;"
         ],
-        "description": "If elseif else endif Block"
+        "description": "If elseif else endif block"
     },
-    "if_block": {
+    "If block": {
         "prefix": "ifb",
         "body": [
             "if (${1:condition}) {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "If  Block"
+        "description": "If  block"
     },
-    "if_else": {
+    "If ... else": {
         "prefix": "ifel",
         "body": [
             "if (${1:condition}) {",
@@ -50,37 +50,48 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "If else Block"
+        "description": "If else block"
     },
-    "if_else_if": {
+    "If ... elseif ... else": {
         "prefix": "ifelif",
         "body": [
             "if (${1:condition}) {",
             "\t${2:# code...}",
-            "} elseif(${3:condition}) {",
+            "} elseif (${3:condition}) {",
             "\t${4:# code...}",
             "} else {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "If elseif Block"
+        "description": "If elseif else block"
     },
-    "switch": {
+    "Switch block": {
         "prefix": "sw",
         "body": [
-            "switch ($${1:condition}) {",
-            "\tcase ${2:label}:",
+            "switch (\\$${1:variable}) {",
+            "\tcase '${2:label}':",
             "\t\t${3:# code...}",
             "\t\tbreak;",
-            "\tcase ${4:label}:",
+            "\tcase '${4:label}':",
+            "\t\t${5:# code...}",
+            "\t\tbreak;$6",
+            "\tdefault:",
             "\t\t${0:# code...}",
             "\t\tbreak;",
-            "\tdefault:",
             "}"
         ],
-        "description": "switch"
+        "description": "Switch block"
     },
-    "ternary_operator": {
+    "Case statement": {
+        "prefix": "cs",
+        "body": [
+            "case '${1:label}':",
+            "\t${2:# code...}",
+            "\tbreak;"
+        ],
+        "description": "Case addon block"
+    },
+    "Ternary operator": {
         "prefix": "tern",
         "body": [
             "${1:condition} ? ${2:if_true} : ${3:if_false};"
