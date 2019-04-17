@@ -2,7 +2,7 @@
     "Private method PHP5": {
         "prefix": "-prif",
         "body": [
-            "private function ${1:func_name}(${2:parameters})",
+            "private function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -12,7 +12,7 @@
     "Private static method PHP5": {
         "prefix": "-prisf",
         "body": [
-            "private static function ${1:func_name}(${2:parameters})",
+            "private static function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -22,7 +22,7 @@
     "Protected method PHP5": {
         "prefix": "-prof",
         "body": [
-            "protected function ${1:func_name}(${2:parameters})",
+            "protected function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -32,7 +32,7 @@
     "Protected static method PHP5": {
         "prefix": "-prosf",
         "body": [
-            "protected static function ${1:func_name}(${2:parameters})",
+            "protected static function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -42,7 +42,7 @@
     "Public method PHP5": {
         "prefix": "-pubf",
         "body": [
-            "public function ${1:func_name}(${2:parameters})",
+            "public function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -52,7 +52,7 @@
     "Public static method PHP5": {
         "prefix": "-pubsf",
         "body": [
-            "public static function ${1:func_name}(${2:parameters})",
+            "public static function ${1:methodName}(${2:parameters})",
             "{",
             "\t${0:# code...}",
             "}"
