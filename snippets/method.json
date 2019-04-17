@@ -2,7 +2,7 @@
     "Class constructor": {
         "prefix": "_c",
         "body": [
-            "public function __construct(${1:parameters})",
+            "public function __construct(${1:Type} \\$${2:args})",
             "{",
             "\t${0:# code...}",
             "}"
@@ -12,7 +12,7 @@
     "Private method": {
         "prefix": "prif",
         "body": [
-            "private function ${1:func_name}(${2:parameters}): ${3:void}",
+            "private function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
@@ -22,7 +22,7 @@
     "Private static method": {
         "prefix": "prisf",
         "body": [
-            "private static function ${1:func_name}(${2:parameters}): ${3:void}",
+            "private static function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
@@ -32,7 +32,7 @@
     "Protected method": {
         "prefix": "prof",
         "body": [
-            "protected function ${1:func_name}(${2:parameters}): ${3:void}",
+            "protected function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
@@ -42,7 +42,7 @@
     "Protected static method": {
         "prefix": "prosf",
         "body": [
-            "protected static function ${1:func_name}(${2:parameters}): ${3:void}",
+            "protected static function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
@@ -52,7 +52,7 @@
     "Public method": {
         "prefix": "pubf",
         "body": [
-            "public function ${1:func_name}(${2:parameters}): ${3:void}",
+            "public function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
@@ -62,7 +62,7 @@
     "Public static method": {
         "prefix": "pubsf",
         "body": [
-            "public static function ${1:func_name}(${2:parameters}): ${3:void}",
+            "public static function ${1:methodName}(${2:Type} \\$${3:args}): ${4:void}",
             "{",
             "\t${0:# code...}",
             "}"
