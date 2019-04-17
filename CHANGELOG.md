@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.4.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.3.0...v0.4.0) (2019-04-17)
+
+
+### Bug Fixes
+
+* **control.json:** Fix duplicate placeholders in 'ifelifend' snippet ([9d1b77f](https://github.com/h4kst3r/php-awesome-snippets/commit/9d1b77f))
+* **control.json:** Modify escaping for '$' sign avoiding VScode warnings ([e683c54](https://github.com/h4kst3r/php-awesome-snippets/commit/e683c54))
+
+
+### Features
+
+* **control.json:** Upgrade switch snippet's placeholders mapping and add new addon snippet ([7bea4b6](https://github.com/h4kst3r/php-awesome-snippets/commit/7bea4b6))
+
+
+
 # [0.3.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.2.0...v0.3.0) (2019-04-16)
 
 
