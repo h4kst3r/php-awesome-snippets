@@ -1,7 +1,7 @@
 {
     "name": "php-awesome-snippets",
     "displayName": "PHP Awesome Snippets",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "publisher": "HakCorp",
     "description": "A fullset of snippets for PHP devs to boost coding productivity.",
     "author": {

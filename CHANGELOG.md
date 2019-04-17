@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.6.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.5.0...v0.6.0) (2019-04-17)
+
+
+### Features
+
+* **class.json:** Add class, interface and trait snippets ([ebc2166](https://github.com/h4kst3r/php-awesome-snippets/commit/ebc2166))
+
+
+
 # [0.5.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.4.0...v0.5.0) (2019-04-17)
 
 
