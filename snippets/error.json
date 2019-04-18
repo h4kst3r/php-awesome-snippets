@@ -4,7 +4,7 @@
         "body": [
             "try {",
             "\t${1:# code...}",
-            "} catch (${2:\\Throwable} $${3:e}) {",
+            "} catch (${2:\\Throwable} \\$${3:e}) {",
             "\t${0:# code...}",
             "}"
         ],
