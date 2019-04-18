@@ -2,12 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.8.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.7.0...v0.8.0) (2019-04-18)
+
+
+### Bug Fixes
+
+* **error.json:** Modify escaping for '$' sign avoiding VScode warnings ([e88b5ba](https://github.com/h4kst3r/php-awesome-snippets/commit/e88b5ba))
+
+
+### Features
+
+* **error.json:** Upgrade error snippets placeholders, new snippets and addon snippets ([30befd9](https://github.com/h4kst3r/php-awesome-snippets/commit/30befd9))
+
+
+
 # [0.7.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.6.0...v0.7.0) (2019-04-18)
 
 
 ### Features
 
-* **mathod.json:** Add method arguments' type hint placeholders for PHP7 methods ([695b1e7](https://github.com/h4kst3r/php-awesome-snippets/commit/695b1e7))
+* **method.json:** Add method arguments' type hint placeholders for PHP7 methods ([695b1e7](https://github.com/h4kst3r/php-awesome-snippets/commit/695b1e7))
 * **method(.php5).json:** Add missing constructors, final and abstract method snippets - PHP7 and PHP5 ([00ea250](https://github.com/h4kst3r/php-awesome-snippets/commit/00ea250))
 
 
