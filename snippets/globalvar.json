@@ -1,65 +1,65 @@
 {
-    "globals": {
-        "prefix": "$G",
+    "GLOBAL array": {
+        "prefix": "gglob",
         "body": [
-            "$GLOBALS[\"${1:name}\"]"
+            "\\$GLOBALS[\"${1:key}\"]"
         ],
-        "description": "globals"
+        "description": "$GLOBALS array"
     },
-    "server": {
-        "prefix": "$se",
+    "SERVER array": {
+        "prefix": "gser",
         "body": [
-            "$_SERVER[\"${1:name}\"]"
+            "\\$_SERVER[\"${1:key}\"]"
         ],
-        "description": "server"
+        "description": "$_SERVER array"
     },
-    "request": {
-        "prefix": "$r",
+    "REQUEST array": {
+        "prefix": "greq",
         "body": [
-            "$_REQUEST[\"${1:name}\"]"
+            "\\$_REQUEST[\"${1:key}\"]"
         ],
-        "description": "request"
+        "description": "$_REQUEST array"
     },
-    "post": {
-        "prefix": "$p",
+    "POST array": {
+        "prefix": "gpost",
         "body": [
-            "$$_POST[\"${1:name}\"]"
+            "\\$_POST[\"${1:key}\"]"
         ],
-        "description": "post"
+        "description": "$_POST array"
     },
-    "get": {
-        "prefix": "$g",
+    "GET array": {
+        "prefix": "gget",
         "body": [
-            "$$_GET[\"${1:name}\"]"
+            "\\$_GET[\"${1:key}\"]"
         ],
-        "description": "get"
+        "description": "$_GET array"
     },
-    "files": {
-        "prefix": "$f",
+    "FILES array": {
+        "prefix": "gfile",
         "body": [
-            "$$_FILES[\"${1:name}\"]"
+            "\\$_FILES['${1:userfile}']['${2:key}']"
         ],
-        "description": "files"
+        "description": "$_FILES array"
     },
-    "env": {
-        "prefix": "$e",
+    "ENV array": {
+        "prefix": "genv",
         "body": [
-            "$$_ENV[\"${1:name}\"]"
+            "\\$_ENV[\"${1:key}\"]"
         ],
-        "description": "env"
+        "description": "$_ENV array"
     },
-    "cookie": {
-        "prefix": "$c",
+    "COOKIE array": {
+        "prefix": "gcook",
         "body": [
-            "$$_COOKIE[\"${1:name}\"]"
+            "\\$_COOKIE[\"${1:key}\"]"
         ],
-        "description": "cookie"
+        "description": "$_COOKIE array"
     },
-    "session": {
-        "prefix": "$s",
+    "SESSION array": {
+        "prefix": "gss",
         "body": [
-            "$$_SESSION[\"${1:name}\"]"
+            "\\$_SESSION[\"${1:key}\"]"
         ],
-        "description": "session"
+        "description": "$_SESSION array"
     }
 }
