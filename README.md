@@ -25,7 +25,7 @@ Type a snippet (or part of it), press `Enter` or `Tab` (if `editor.tabCompletion
 
 ## Features
 
-These snippets try to be as intuitive as possible and to avoid conflicts with previous or built-in snippets.
+These snippets try to be **as intuitive as possible** and to avoid conflicts with previous or built-in snippets.
 
 Placeholders are quite *'easy to use'* though some need optimizations.
 > ***Tip:*** If you want to use snippets and completion in placeholders 
@@ -40,6 +40,21 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | po | `<?php...` |
 | pc | `?>` |
 | peco | `<?= ... ?>` |
+
+----
+### Superglobals
+
+| Snippet | Output |
+| --- | --- |
+| gget | `$_GET["..."]` |
+| gpost | `$_POST["..."]` |
+| gss | `$_SESSION["..."]` |
+| gfile | `$_FILES['...']['...']` |
+| gcook | `$_COOKIE["..."]` |
+| gser | `$_SERVER["..."]` |
+| greq | `$_REQUEST["..."]` |
+| genv | `$_ENV["..."]` |
+| gglob | `$GLOBALS["..."]` |
 
 ----
 ### Arrays
