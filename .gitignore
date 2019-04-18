@@ -1,7 +1,7 @@
 # Files
 *.orig
 *.php
-.vsco*
+.vscode/**
 
 # Dir
 node_modules
