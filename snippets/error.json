@@ -1,19 +1,50 @@
 {
-    "try_catch": {
-        "prefix": "tr",
+    "Try ... catch": {
+        "prefix": "tryc",
         "body": [
             "try {",
             "\t${1:# code...}",
-            "} catch (${2:\\Throwable} $${3:e}) {",
+            "} catch (${2:\\Throwable} \\$${3:e}) {",
+            "\t${4:# code...}",
+            "}"
+        ],
+        "description": "Try catch block"
+    },
+    "Try ... catch ... finally": {
+        "prefix": "tryf",
+        "body": [
+            "try {",
+            "\t${1:# code...}",
+            "} catch (${2:\\Throwable} \\$${3:e}) {",
+            "\t${4:# code...}",
+            "}$5 finally {",
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Try catch Block"
+        "description": "Try catch finally block"
     },
-    "throw_new_exception": {
+    "Catch": {
+        "prefix": "cat",
+        "body": [
+            "catch (${1:\\Throwable} \\$${2:e}) {",
+            "\t${3:# code...}",
+            "}"
+        ],
+        "description": "Catch block"
+    },
+    "Finally": {
+        "prefix": "fy",
+        "body": [
+            "finally {",
+            "\t${0:# code...}",
+            "}"
+        ],
+        "description": "Finally block"
+    },
+    "Throw new Exception": {
         "prefix": "thr",
         "body": [
-            "throw new ${1:\\Exception}(\"${2:Error message}\");"
+            "throw new ${1:Some}Exception(\"${2:Error statement}\");"
         ],
         "description": "Throw new exception statement"
     }
