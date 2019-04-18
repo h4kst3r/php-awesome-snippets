@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.1.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v1.0.0...v1.1.0) (2019-04-18)
+
+
+### Features
+
+* **package.json:** Add snippets available in Plain Text context and PHP tags available in HTML one ([3b21da7](https://github.com/h4kst3r/php-awesome-snippets/commit/3b21da7))
+* **statement.json:** Add __DIR__ placeholder in 'include' and 'require' snippets to use absolute path ([b1a381b](https://github.com/h4kst3r/php-awesome-snippets/commit/b1a381b))
+
+
+
 # [1.0.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.9.0...v1.0.0) (2019-04-18)
 
 
