@@ -1,4 +1,4 @@
-# PHP awesome snippets - VScode extension
+# PHP Awesome Snippets - VScode extension
 
 [![VScode](https://img.shields.io/badge/Extension-VScode-blueviolet.svg)](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
 ![Snippets](https://img.shields.io/badge/Type-Snippets-yellow.svg)
@@ -9,13 +9,13 @@
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
 [![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/LICENSE)
 
-[![SemVer](https://img.shields.io/badge/dynamic/json.svg?color=B71C1C&label=SemVer&query=%24.version&url=https%3A%2F%2Fgithub.com%2Fh4kst3r%2Fphp-awesome-snippets%2Fblob%2Fmaster%2Fpackage.json)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
+[![SemVer](https://img.shields.io/badge/SemVer-1.1.0-%23B71C1C.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
 
 This [VScode extension](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) provide a fullset of snippets for PHP devs. It's pretty simple !
 
 You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
-![Demo PHP awesome snippet](https://github.com/h4kst3r/php-awesome-snippets/blob/master/img/snipdemo.gif)
+![Demo PHP Awesome Snippets](./img/snipdemo.gif)
 
 The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (*Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
 
@@ -26,16 +26,16 @@ This work is inspired by PHPstorm (*PHP Live Templates*) and other works availab
 ## Usage
 Type a snippet (or part of it), press `Enter` or `Tab` (if `editor.tabCompletion` set to `true` in your settings) and the snippet will expand just right there.
 
-> ***Tip:*** Snippets provided in this extension support `tab` to next/previous placeholder.
+> ***Tip :*** Snippets provided in this extension support `tab` to next/previous placeholder.
 
-These snippets are meant to work in *PHP* context (VScode file). However there are also available in *Plain Text* files for convenience and PHP tags are available in *HTML* one.
+These snippets are meant to work in *PHP* context (VScode file). However there are also available in *Plain Text* files for convenience and PHP tags are available in *HTML* ones.
 
 ## Features
 
 These snippets try to be **as intuitive as possible** and to avoid conflicts with previous or built-in snippets.
 
 Placeholders are quite *'easy to use'* though some need optimizations.
-> ***Tip:*** If you want to use snippets and completion in placeholders 
+> ***Tip :*** If you want to use snippets and completion in placeholders 
 > look at the [Extension settings](#ext-settings) section.
 
 ----
@@ -70,8 +70,8 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | --- | --- |
 | arr | `[value, value, ...];` |
 | ark | `['key' => value, 'key' => value,...]` |
-| kv | `'key' => value,` *[1]* |
-| va | `value, ` *[1]* |
+| kv | `'key' => value,` **[1]** |
+| va | `value, ` **[1]** |
 
 * **[1]** Addon snippet: use with `arr` or `ark` snippet to add `value` or `key => value` if needed.
 
@@ -99,8 +99,7 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | fna | `function (Type $args): void {...}` |
 | fnu | `function (Type $args) use ($vars): void {...}` |
 
-> ***Tip:*** You can call `functions` snippets above without type hinting 
-> and return type (**PHP5 compatible**) by using **`-`** as prefix.
+***Tip :*** You can call `functions` snippets above without type hinting and return type (**PHP5 compatible**) by using **`-`** as prefix.
 > * `-fna` for `function ($args) {...}` *(anonymous function block)*
 
 ----
@@ -112,13 +111,13 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | ifel | `if (condition) {...} else {...}` |
 | ifelif | `if (condition) {...} elseif (condition) {...} else {...}` |
 | sw | `switch ($variable) { case 'label': ... break; ... default: ... break; }` |
-| cs | `case 'label': ... break;` *[1]* |
+| cs | `case 'label': ... break;` **[1]** |
 | tern | `condition ? if_true : if_false;` |
 
 * **[1]** Addon snippet: use with `sw` snippet to add `case` if needed.
 
-> ***Tip:*** The others `if` `else` forms are also available if needed:
-> 
+***Tip :*** The others `if` `else` forms are also available if needed:
+ 
 > | Snippet | Output |
 > | --- | --- |
 > | ifend | `if (condition): ... endif;` |
@@ -136,8 +135,8 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | wl | `while ($variable <= $limit) {...}` |
 | dowl | `do {...} while ($variable <= $limit);` |
 
-> ***Tip:*** The others loop forms are also available if needed:
-> 
+***Tip :*** The others loop forms are also available if needed: 
+
 > | Snippet | Output |
 > | --- | --- |
 > | foren | `foreach ($iterable as $item): {...} endforeach;` |
@@ -158,8 +157,7 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | inx | `interface InterfaceName extends Interfaces {...}` |
 | trt | `trait TraitName {...}` |
 
-> ***Tip:*** You can call `Class` snippets above with `abstract` or `final` form 
-> by using **`a`** or **`f`** as prefix.
+***Tip :*** You can call `Class` snippets above with `abstract` or `final` form by using **`a`** or **`f`** as prefix.
 > * `acl` for `abstract class ClassName {...}`
 > * `fcli` for `final class ClassName implements Interfaces {...}`
 
@@ -188,13 +186,12 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | prif | `private function methodName(Type $args): void {...}` |
 | prisf | `private static function methodName(Type $args): void {...}` |
 
-> ***Tip:*** You can call `methods` snippets above with `abstract` or `final` form 
-> by using **`a`** or **`f`** as prefix.  
+***Tip :*** You can call `methods` snippets above with `abstract` or `final` form by using **`a`** or **`f`** as prefix.  
 > * `aprof` for `abstract protected function methodName(Type $args): void {...}`
 > * `fpubsf` for `final public static function methodName(Type $args): void {...}` 
 
-> ***Tip:*** You can call `methods` snippets above without type hinting 
-> and return type (**PHP5 compatible**) by using **`-`** as prefix.
+***Tip :*** You can call `methods` snippets above without type hinting 
+and return type (**PHP5 compatible**) by using **`-`** as prefix.
 > * `-apubf` for `abstract public function methodName(parameters) {...}`
 
 ----
@@ -204,8 +201,8 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | --- | --- |
 | tryc | `try {...} catch (\Throwable $e) {...}` |
 | tryf | `try {...} catch (\Throwable $e) {...} finally {...}` |
-| cat | `catch (\Throwable $e) {...}` *[1]* |
-| fy | `finally {...}` *[2]* |
+| cat | `catch (\Throwable $e) {...}` **[1]** |
+| fy | `finally {...}` **[2]** |
 | thr | `throw new SomeException("Error statement");` |
 
 * **[1]** Addon snippet: use with `tryc` or `tryf` snippet to add `catch` if needed.
