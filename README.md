@@ -7,7 +7,9 @@
 [![PSR-1](https://img.shields.io/badge/Standard-PSR--1-%2326A69A.svg)](https://www.php-fig.org/psr/psr-1/)
 [![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
-[![MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
+[![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](LICENSE)
+
+![SemVer](https://img.shields.io/badge/dynamic/json.svg?color=B71C1C&label=SemVer&query=%24.version&url=https%3A%2F%2Fgithub.com%2Fh4kst3r%2Fphp-awesome-snippets%2Fblob%2Fmaster%2Fpackage.json)
 
 This extension provide a fullset of snippets for PHP devs. You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
@@ -19,13 +21,13 @@ This work is inspired by PHPstorm (*PHP Live Templates*) and other works availab
 
 ## Usage
 Type a snippet (or part of it), press `Enter` or `Tab` (if `editor.tabCompletion` set to `true` in your settings) and the snippet will expand just right there.
+> ***Tip:*** Snippets provided in this extension support `tab` to next/previous placeholder.
 
 ## Features
 
 These snippets try to be as intuitive as possible and to avoid conflicts with previous or built-in snippets.
 
-> ***Tip:*** Snippets provided in this extension support `tab` to next/previous placeholder.
-
+Placeholders are quite *'easy to use'* (some need optimizations).
 > ***Tip:*** If you want to use snippets and completion in placeholders 
 > look at the [Extension settings](#ext-settings) section.
 
@@ -79,7 +81,7 @@ These snippets try to be as intuitive as possible and to avoid conflicts with pr
 | cs | `case 'label': ... break;` *[1]* |
 | tern | `condition ? if_true : if_false;` |
 
-###### *[1]* Addon snippet: use with 'sw' snippet to add `case` if needed.
+###### *[1]* Addon snippet: use with `sw` snippet to add `case` if needed.
 
 > ***Tip:*** The others `if` `else` forms are also available if needed:
 > 
@@ -110,7 +112,7 @@ These snippets try to be as intuitive as possible and to avoid conflicts with pr
 > | wlen | `while ($variable <= $limit): {...} endwhile;` |
 
 ----
-### Class, interfaces and trait
+### Classes, interfaces and traits
 
 | Snippet | Output |
 | --- | --- |
@@ -160,6 +162,20 @@ These snippets try to be as intuitive as possible and to avoid conflicts with pr
 > ***Tip:*** You can call the `methods` snippets above without type hinting 
 > and return type (**PHP5 compatible**) by using **`-`** as prefix.
 > * `-apubf` for `abstract public function methodName(parameters) {...}`
+
+----
+### Errors
+
+| Snippet | Output |
+| --- | --- |
+| tryc | `try {...} catch (\Throwable $e) {...}` |
+| tryf | `try {...} catch (\Throwable $e) {...} finally {...}` |
+| cat | `catch (\Throwable $e) {...}` *[1]* |
+| fy | `finally {...}` *[2]* |
+| thr | `throw new SomeException("Error statement");` |
+
+* **[1]** Addon snippet: use with `tryc` or `tryf` snippet to add `catch` if needed.
+* **[2]** Addon snippet: use with `tryc` snippet to add `finally` if needed.
 
 ## Requirements
 
