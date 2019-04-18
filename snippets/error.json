@@ -1,5 +1,5 @@
 {
-    "try_catch": {
+    "Try ... catch": {
         "prefix": "tr",
         "body": [
             "try {",
@@ -8,9 +8,9 @@
             "\t${0:# code...}",
             "}"
         ],
-        "description": "Try catch Block"
+        "description": "Try catch block"
     },
-    "throw_new_exception": {
+    "Throw new Exception": {
         "prefix": "thr",
         "body": [
             "throw new ${1:\\Exception}(\"${2:Error message}\");"
