@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.7.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.6.0...v0.7.0) (2019-04-18)
+
+
+### Features
+
+* **mathod.json:** Add method arguments' type hint placeholders for PHP7 methods ([695b1e7](https://github.com/h4kst3r/php-awesome-snippets/commit/695b1e7))
+* **method(.php5).json:** Add missing constructors, final and abstract method snippets - PHP7 and PHP5 ([00ea250](https://github.com/h4kst3r/php-awesome-snippets/commit/00ea250))
+
+
+
 # [0.6.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.5.0...v0.6.0) (2019-04-17)
 
 
@@ -79,7 +89,7 @@ All notable changes to this project will be documented in this file. See [standa
 * Refactor code by dividing the main php.json in thematic snippets files to improve framework :
     - Tag snippets (open, close, short echo tag...)
     - Statement snippets (echo, define, include...)
-    - Function snippets 
+    - Function snippets *PHP7 and PHP5 style*
     - Global vars snippets ($_POST, $_GET, $_SESSION...)
     - Conditional snippets (if, if-else, if-endif...)
     - Loop snippets (foreach, while, for...)
