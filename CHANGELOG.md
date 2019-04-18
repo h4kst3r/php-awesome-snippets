@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.9.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.8.0...v0.9.0) (2019-04-18)
+
+
+### Features
+
+* **array.json:** Add new array snippets and addon snippets ([3b0e092](https://github.com/h4kst3r/php-awesome-snippets/commit/3b0e092))
+
+
+
 # [0.8.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.7.0...v0.8.0) (2019-04-18)
 
 
