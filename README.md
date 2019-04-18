@@ -1,6 +1,6 @@
 # PHP awesome snippets - VScode extension
 
-[![VScode](https://img.shields.io/badge/Extension-VScode-blueviolet.svg)]()
+[![VScode](https://img.shields.io/badge/Extension-VScode-blueviolet.svg)](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
 ![Snippets](https://img.shields.io/badge/Type-Snippets-yellow.svg)
 ![PHP7](https://img.shields.io/badge/PHP-%5E7.0-blue.svg)
 ![PHP5](https://img.shields.io/badge/PHP-%5E5.4-blue.svg)
@@ -11,7 +11,11 @@
 
 [![SemVer](https://img.shields.io/badge/dynamic/json.svg?color=B71C1C&label=SemVer&query=%24.version&url=https%3A%2F%2Fgithub.com%2Fh4kst3r%2Fphp-awesome-snippets%2Fblob%2Fmaster%2Fpackage.json)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
 
-This extension provide a fullset of snippets for PHP devs. You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
+This [VScode extension](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) provide a fullset of snippets for PHP devs. It's pretty simple !
+
+You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
+
+![Demo PHP awesome snippet](https://github.com/h4kst3r/php-awesome-snippets/blob/master/img/snipdemo.gif)
 
 The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (*Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
 
@@ -21,7 +25,10 @@ This work is inspired by PHPstorm (*PHP Live Templates*) and other works availab
 
 ## Usage
 Type a snippet (or part of it), press `Enter` or `Tab` (if `editor.tabCompletion` set to `true` in your settings) and the snippet will expand just right there.
+
 > ***Tip:*** Snippets provided in this extension support `tab` to next/previous placeholder.
+
+These snippets are meant to work in *PHP* context (VScode file). However there are also available in *Plain Text* files for convenience and PHP tags are available in *HTML* one.
 
 ## Features
 
@@ -74,10 +81,10 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | Snippet | Output |
 | --- | --- |
 | eco | `echo "...";` |
-| inc | `include '...';` |
-| inco | `include_once '...';` |
-| rqr | `require '...';` |
-| rqro | `require_once '...';` |
+| inc | `include __DIR__.'...';` |
+| inco | `include_once __DIR__.'...';` |
+| rqr | `require __DIR__.'...';` |
+| rqro | `require_once __DIR__.'...';` |
 | df | `define("...", "...");` |
 | pr | `print_r(...);` |
 | vd | `var_dump(...);` |
@@ -92,9 +99,9 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | fna | `function (Type $args): void {...}` |
 | fnu | `function (Type $args) use ($vars): void {...}` |
 
-> ***Tip:*** You can call the `functions` snippets above without type hinting 
+> ***Tip:*** You can call `functions` snippets above without type hinting 
 > and return type (**PHP5 compatible**) by using **`-`** as prefix.
-> * `-fna` for `function ($args) {...}`
+> * `-fna` for `function ($args) {...}` *(anonymous function block)*
 
 ----
 ### Control structures
@@ -108,7 +115,7 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | cs | `case 'label': ... break;` *[1]* |
 | tern | `condition ? if_true : if_false;` |
 
-###### *[1]* Addon snippet: use with `sw` snippet to add `case` if needed.
+* **[1]** Addon snippet: use with `sw` snippet to add `case` if needed.
 
 > ***Tip:*** The others `if` `else` forms are also available if needed:
 > 
@@ -186,7 +193,7 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 > * `aprof` for `abstract protected function methodName(Type $args): void {...}`
 > * `fpubsf` for `final public static function methodName(Type $args): void {...}` 
 
-> ***Tip:*** You can call the `methods` snippets above without type hinting 
+> ***Tip:*** You can call `methods` snippets above without type hinting 
 > and return type (**PHP5 compatible**) by using **`-`** as prefix.
 > * `-apubf` for `abstract public function methodName(parameters) {...}`
 
@@ -208,11 +215,11 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 
 All you need is VScode installed on your machine.
 
-* Install the extension from the extension menu.
+* Install the extension from extension menu.
 
 * You can also press `F1` then type:
 
-    `ext install php-awesome-snippets`
+    `ext install hakcorp.php-awesome-snippets`
 
 ## <a id="ext-settings"></a>Extension Settings
 
@@ -230,3 +237,7 @@ Sometimes IntelliSense freezes loading or simply don't select the called snippet
 ## Release Notes
 
 All notable changes to this project will be documented in [CHANGELOG.md](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md).
+
+## License
+
+[MIT](https://github.com/h4kst3r/php-awesome-snippets/blob/master/LICENSE) License

@@ -2,7 +2,7 @@
     "name": "php-awesome-snippets",
     "displayName": "PHP Awesome Snippets",
     "version": "1.0.0",
-    "publisher": "HakCorp",
+    "publisher": "hakcorp",
     "description": "A fullset of snippets for PHP devs to boost coding productivity.",
     "author": {
         "name": "JH Ster"
@@ -13,7 +13,7 @@
     ],
     "icon": "./img/php-awesome-icon.png",
     "galleryBanner": {
-        "color": "#00b0ff",
+        "color": "#eceff1",
         "theme": "dark"
     },
     "engines": {
@@ -76,6 +76,58 @@
             },
             {
                 "language": "php",
+                "path": "./snippets/tag.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/tag.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/array.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/class.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/control.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/error.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/function.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/function.php5.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/globalvar.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/loop.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/method.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/method.php5.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/statement.json"
+            },
+            {
+                "language": "plaintext",
                 "path": "./snippets/tag.json"
             }
         ]
