@@ -74,10 +74,10 @@ Placeholders are quite *'easy to use'* though some need optimizations.
 | Snippet | Output |
 | --- | --- |
 | eco | `echo "...";` |
-| inc | `include '...';` |
-| inco | `include_once '...';` |
-| rqr | `require '...';` |
-| rqro | `require_once '...';` |
+| inc | `include __DIR__.'...';` |
+| inco | `include_once __DIR__.'...';` |
+| rqr | `require __DIR__.'...';` |
+| rqro | `require_once __DIR__.'...';` |
 | df | `define("...", "...");` |
 | pr | `print_r(...);` |
 | vd | `var_dump(...);` |
