@@ -1,5 +1,14 @@
 # PHP awesome snippets - VScode extension
 
+[![VScode](https://img.shields.io/badge/Extension-VScode-blueviolet.svg)]()
+![Snippets](https://img.shields.io/badge/Type-Snippets-yellow.svg)
+![PHP7](https://img.shields.io/badge/PHP-%5E7.0-blue.svg)
+![PHP5](https://img.shields.io/badge/PHP-%5E5.4-blue.svg)
+[![PSR-1](https://img.shields.io/badge/Standard-PSR--1-%2326A69A.svg)](https://www.php-fig.org/psr/psr-1/)
+[![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
+[![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
+[![MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
+
 This extension provide a fullset of snippets for PHP devs. You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
 The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (*Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
