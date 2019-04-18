@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.0.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.9.0...v1.0.0) (2019-04-18)
+
+
+### Features
+
+* **globalvar.json:** Update globalvar snippets with new prefix ([1a20ee2](https://github.com/h4kst3r/php-awesome-snippets/commit/1a20ee2))
+
+
+### BREAKING CHANGES
+
+* **globalvar.json:** Previous prefixes are no longer working.
+
+
+
 # [0.9.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v0.8.0...v0.9.0) (2019-04-18)
 
 
