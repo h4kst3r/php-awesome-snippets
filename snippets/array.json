@@ -1,0 +1,33 @@
+{
+    "Array": {
+        "prefix": "arr",
+        "body": [
+            "[${1:value}, ${2:value}, $3];"
+        ],
+        "description": "Array [] block"
+    },
+    "Array key ... value": {
+        "prefix": "ark",
+        "body": [
+            "[",
+            "\t'${1:key}' => ${2:value},",
+            "\t'${3:key}' => ${4:value},$5",
+            "]"
+        ],
+        "description": "Array [] key => value block"
+    },
+    "Key ... value": {
+        "prefix": "kv",
+        "body": [
+            "'${1:key}' => ${2:value},"
+        ],
+        "description": "key => value statement"
+    },
+    "Array ... value": {
+        "prefix": "va",
+        "body": [
+            "${1:value}, "
+        ],
+        "description": "Array value statement"
+    }
+}

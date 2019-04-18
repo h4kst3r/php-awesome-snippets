@@ -7,9 +7,9 @@
 [![PSR-1](https://img.shields.io/badge/Standard-PSR--1-%2326A69A.svg)](https://www.php-fig.org/psr/psr-1/)
 [![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
-[![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](LICENSE)
+[![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/LICENSE)
 
-![SemVer](https://img.shields.io/badge/dynamic/json.svg?color=B71C1C&label=SemVer&query=%24.version&url=https%3A%2F%2Fgithub.com%2Fh4kst3r%2Fphp-awesome-snippets%2Fblob%2Fmaster%2Fpackage.json)
+[![SemVer](https://img.shields.io/badge/dynamic/json.svg?color=B71C1C&label=SemVer&query=%24.version&url=https%3A%2F%2Fgithub.com%2Fh4kst3r%2Fphp-awesome-snippets%2Fblob%2Fmaster%2Fpackage.json)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
 
 This extension provide a fullset of snippets for PHP devs. You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
@@ -27,7 +27,7 @@ Type a snippet (or part of it), press `Enter` or `Tab` (if `editor.tabCompletion
 
 These snippets try to be as intuitive as possible and to avoid conflicts with previous or built-in snippets.
 
-Placeholders are quite *'easy to use'* (some need optimizations).
+Placeholders are quite *'easy to use'* though some need optimizations.
 > ***Tip:*** If you want to use snippets and completion in placeholders 
 > look at the [Extension settings](#ext-settings) section.
 
@@ -40,6 +40,18 @@ Placeholders are quite *'easy to use'* (some need optimizations).
 | po | `<?php...` |
 | pc | `?>` |
 | peco | `<?= ... ?>` |
+
+----
+### Arrays
+
+| Snippet | Output |
+| --- | --- |
+| arr | `[value, value, ...];` |
+| ark | `['key' => value, 'key' => value,...]` |
+| kv | `'key' => value,` *[1]* |
+| va | `value, ` *[1]* |
+
+* **[1]** Addon snippet: use with `arr` or `ark` snippet to add `value` or `key => value` if needed.
 
 ----
 ### Statements and common functions calls
@@ -181,9 +193,9 @@ Placeholders are quite *'easy to use'* (some need optimizations).
 
 All you need is VScode installed on your machine.
 
-* Install then the extension from the extension menu.
+* Install the extension from the extension menu.
 
-* You can also Press `F1` then type:
+* You can also press `F1` then type:
 
     `ext install php-awesome-snippets`
 
@@ -198,8 +210,8 @@ Now you can call snippets and any suggestion in placeholders without typing `Ctr
 
 ## Known Issues
 
-Sometimes IntelliSense freezes loading or simply don't find the snippet. Backspace and try again, it should work.
+Sometimes IntelliSense freezes loading or simply don't select the called snippet. Backspace and try again, it should work.
 
 ## Release Notes
 
-All notable changes to this project will be documented in [CHANGELOG.md](CHANGELOG.md).
+All notable changes to this project will be documented in [CHANGELOG.md](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md).

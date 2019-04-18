@@ -32,6 +32,10 @@
         "snippets": [
             {
                 "language": "php",
+                "path": "./snippets/array.json"
+            },
+            {
+                "language": "php",
                 "path": "./snippets/class.json"
             },
             {
