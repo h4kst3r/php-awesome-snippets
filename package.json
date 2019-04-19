@@ -12,10 +12,11 @@
         "Programming Languages"
     ],
     "keywords": [
-        "PHP",
-        "Snippets",
-        "Productivity",
-        "PHP Snippets"
+        "snippets",
+        "productivity",
+        "coding",
+        "php7",
+        "psr"
     ],
     "icon": "img/php-awesome-icon.png",
     "galleryBanner": {
