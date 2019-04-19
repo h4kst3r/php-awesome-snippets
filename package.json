@@ -11,7 +11,7 @@
         "Snippets",
         "Programming Languages"
     ],
-    "icon": "./img/php-awesome-icon.png",
+    "icon": "img/php-awesome-icon.png",
     "galleryBanner": {
         "color": "#eceff1",
         "theme": "dark"
