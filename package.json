@@ -11,10 +11,16 @@
         "Snippets",
         "Programming Languages"
     ],
+    "keywords": [
+        "PHP",
+        "Snippets",
+        "Productivity",
+        "PHP Snippets"
+    ],
     "icon": "img/php-awesome-icon.png",
     "galleryBanner": {
         "color": "#eceff1",
-        "theme": "dark"
+        "theme": "light"
     },
     "engines": {
         "vscode": "^1.0.0"
