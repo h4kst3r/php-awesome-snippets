@@ -1,7 +1,7 @@
 {
     "name": "php-awesome-snippets",
     "displayName": "PHP Awesome Snippets",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "hakcorp",
     "description": "A fullset of snippets for PHP devs to boost coding productivity.",
     "author": {
@@ -11,10 +11,16 @@
         "Snippets",
         "Programming Languages"
     ],
-    "icon": "./img/php-awesome-icon.png",
+    "keywords": [
+        "PHP",
+        "Snippets",
+        "Productivity",
+        "PHP Snippets"
+    ],
+    "icon": "img/php-awesome-icon.png",
     "galleryBanner": {
         "color": "#eceff1",
-        "theme": "dark"
+        "theme": "light"
     },
     "engines": {
         "vscode": "^1.0.0"
