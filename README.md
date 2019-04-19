@@ -9,13 +9,13 @@
 [![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
 [![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/LICENSE)
 
-[![SemVer](https://img.shields.io/badge/SemVer-1.1.1-%23B71C1C.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
+[![SemVer](https://img.shields.io/badge/SemVer-1.1.2-%23B71C1C.svg)](https://github.com/h4kst3r/php-awesome-snippets/blob/master/CHANGELOG.md)
 
 This [VScode extension](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) provide a fullset of snippets for PHP devs. It's pretty simple !
 
 You can use it to avoid wasting time typing Class blocks, function signatures or other common PHP statements.
 
-![Demo PHP Awesome Snippets](https://github.com/h4kst3r/php-awesome-snippets/blob/master/img/snipdemo.gif)
+![Demo PHP Awesome Snippets](img/snipdemo.gif)
 
 The code generated is as compliant as possible with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) (*Review* stage) coding standard provided by [PHP-FIG](https://www.php-fig.org/).
 
