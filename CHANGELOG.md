@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
+
+* Update SemVer badge
+* Update package.json to fix some grafic problem on the VScode marketplace
+
+
+
 # [1.1.0](https://github.com/h4kst3r/php-awesome-snippets/compare/v1.0.0...v1.1.0) (2019-04-18)
 
 
