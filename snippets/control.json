@@ -1,6 +1,6 @@
 {
     "If ... endif": {
-        "prefix": "ifend",
+        "prefix": "ifen",
         "body": [
             "if (${1:condition}):",
             "\t${0:# code...}",
@@ -9,7 +9,7 @@
         "description": "If endif block"
     },
     "If ... else ... endif": {
-        "prefix": "ifelend",
+        "prefix": "ifelen",
         "body": [
             "if (${1:condition}):",
             "\t${2:# code...}",
@@ -20,7 +20,7 @@
         "description": "If else endif block"
     },
     "If ... elseif ... else ... endif": {
-        "prefix": "ifelifend",
+        "prefix": "ifelifen",
         "body": [
             "if (${1:condition}):",
             "\t${2:# code...}",
