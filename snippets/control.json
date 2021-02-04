@@ -3,7 +3,7 @@
         "prefix": "ifen",
         "body": [
             "if (${1:condition}):",
-            "\t${0:# code...}",
+            "\t$0",
             "endif;"
         ],
         "description": "If endif block"
@@ -12,9 +12,9 @@
         "prefix": "ifelen",
         "body": [
             "if (${1:condition}):",
-            "\t${2:# code...}",
+            "\t$2",
             "else:",
-            "\t${0:# code...}",
+            "\t$0",
             "endif;"
         ],
         "description": "If else endif block"
@@ -23,11 +23,11 @@
         "prefix": "ifelifen",
         "body": [
             "if (${1:condition}):",
-            "\t${2:# code...}",
+            "\t$2",
             "elseif (${3:condition}):",
-            "\t${4:# code...}",
+            "\t$4",
             "else:",
-            "\t${0:# code...}",
+            "\t$0",
             "endif;"
         ],
         "description": "If elseif else endif block"
@@ -36,7 +36,7 @@
         "prefix": "ifb",
         "body": [
             "if (${1:condition}) {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "If  block"
@@ -45,9 +45,9 @@
         "prefix": "ifel",
         "body": [
             "if (${1:condition}) {",
-            "\t${2:# code...}",
+            "\t$2",
             "} else {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "If else block"
@@ -56,11 +56,11 @@
         "prefix": "ifelif",
         "body": [
             "if (${1:condition}) {",
-            "\t${2:# code...}",
+            "\t$2",
             "} elseif (${3:condition}) {",
-            "\t${4:# code...}",
+            "\t$4",
             "} else {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "If elseif else block"
@@ -70,13 +70,13 @@
         "body": [
             "switch (\\$${1:variable}) {",
             "\tcase '${2:label}':",
-            "\t\t${3:# code...}",
+            "\t\t$3",
             "\t\tbreak;",
             "\tcase '${4:label}':",
-            "\t\t${5:# code...}",
+            "\t\t$5",
             "\t\tbreak;$6",
             "\tdefault:",
-            "\t\t${0:# code...}",
+            "\t\t$0",
             "\t\tbreak;",
             "}"
         ],
@@ -86,7 +86,7 @@
         "prefix": "cs",
         "body": [
             "case '${1:label}':",
-            "\t${2:# code...}",
+            "\t$2",
             "\tbreak;"
         ],
         "description": "Case addon block"
