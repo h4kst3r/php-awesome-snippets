@@ -4,7 +4,7 @@
         "body": [
             "private function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Private method block PHP5"
@@ -14,7 +14,7 @@
         "body": [
             "private static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Private static method block PHP5"
@@ -24,7 +24,7 @@
         "body": [
             "final private function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final private method block PHP5"
@@ -34,7 +34,7 @@
         "body": [
             "final private static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final private static method block PHP5"
@@ -44,7 +44,7 @@
         "body": [
             "protected function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Protected method block PHP5"
@@ -54,7 +54,7 @@
         "body": [
             "protected static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Protected static method block PHP5"
@@ -64,7 +64,7 @@
         "body": [
             "final protected function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final protected method block PHP5"
@@ -74,7 +74,7 @@
         "body": [
             "final protected static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final protected static method block PHP5"
@@ -98,7 +98,7 @@
         "body": [
             "public function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Public method block PHP5"
@@ -108,7 +108,7 @@
         "body": [
             "public static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Public static method block PHP5"
@@ -118,7 +118,7 @@
         "body": [
             "final public function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final public method block PHP5"
@@ -128,7 +128,7 @@
         "body": [
             "final public static function ${1:methodName}(${2:parameters})",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Final public static method block PHP5"
