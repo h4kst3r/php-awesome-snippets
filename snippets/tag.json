@@ -2,7 +2,7 @@
     "PHP tags": {
         "prefix": "php",
         "body": [
-            "<?php $0?>"
+            "<?php $0 ?>"
         ],
         "description": "PHP open tag"
     },
