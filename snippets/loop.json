@@ -3,7 +3,7 @@
         "prefix": "fore",
         "body": [
             "foreach (\\$${1:iterable} as \\$${2:item}) {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Foreach as $item block"
@@ -12,7 +12,7 @@
         "prefix": "forek",
         "body": [
             "foreach (\\$${1:iterable} as \\$${2:key} => \\$${3:item}) {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Foreach as $key => $item block"
@@ -21,7 +21,7 @@
         "prefix": "foren",
         "body": [
             "foreach (\\$${1:iterable} as \\$${2:item}):",
-            "\t${0:# code...}",
+            "\t$0",
             "endforeach;"
         ],
         "description": "Foreach end as $item block"
@@ -30,7 +30,7 @@
         "prefix": "forenk",
         "body": [
             "foreach (\\$${1:iterable} as \\$${2:key} => \\$${3:item}):",
-            "\t${0:# code...}",
+            "\t$0",
             "endforeach;"
         ],
         "description": "Foreach end as $key => $item block"
@@ -39,7 +39,7 @@
         "prefix": "forl",
         "body": [
             "for (\\$${1:i} = ${2:0}; \\$${1:i} < \\$${3:limit}; \\$${1:i}++) {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "For loop"
@@ -48,7 +48,7 @@
         "prefix": "forlen",
         "body": [
             "for (\\$${1:i} = ${2:0}; \\$${1:i} < \\$${3:limit}; \\$${1:i}++):",
-            "\t${0:# code...}",
+            "\t$0",
             "endfor;"
         ],
         "description": "For end loop"
@@ -57,7 +57,7 @@
         "prefix": "wl",
         "body": [
             "while (\\$${1:variable} ${2:<=} \\$${3:limit}) {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "While loop"
@@ -66,7 +66,7 @@
         "prefix": "wlen",
         "body": [
             "while (\\$${1:variable} ${2:<=} \\$${3:limit}):",
-            "\t${0:# code...}",
+            "\t$0",
             "endwhile;"
         ],
         "description": "While end loop"
@@ -75,7 +75,7 @@
         "prefix": "dowl",
         "body": [
             "do {",
-            "\t${0:# code...}",
+            "\t$0",
             "} while (\\$${1:variable} ${2:<=} \\$${3:limit});"
         ],
         "description": "Do while loop"
