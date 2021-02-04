@@ -3,7 +3,7 @@
         "prefix": "fn",
         "body": [
             "function ${1:func_name}(${2:Type} \\$${3:args}): ${4:void} {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Function block"
@@ -12,7 +12,7 @@
         "prefix": "fna",
         "body": [
             "function (${1:Type} \\$${2:args}): ${3:void} {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Anonymous function block"
@@ -21,7 +21,7 @@
         "prefix": "fnu",
         "body": [
             "function (${1:Type} \\$${2:args}) use (\\$${3:vars}): ${4:void} {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Anonymous function with use block"
