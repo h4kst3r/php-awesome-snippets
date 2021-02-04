@@ -3,9 +3,9 @@
         "prefix": "tryc",
         "body": [
             "try {",
-            "\t${1:# code...}",
+            "\t$1",
             "} catch (${2:\\Throwable} \\$${3:e}) {",
-            "\t${4:# code...}",
+            "\t$4",
             "}"
         ],
         "description": "Try catch block"
@@ -14,11 +14,11 @@
         "prefix": "tryf",
         "body": [
             "try {",
-            "\t${1:# code...}",
+            "\t$1",
             "} catch (${2:\\Throwable} \\$${3:e}) {",
-            "\t${4:# code...}",
+            "\t$4",
             "}$5 finally {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Try catch finally block"
@@ -27,7 +27,7 @@
         "prefix": "cat",
         "body": [
             "catch (${1:\\Throwable} \\$${2:e}) {",
-            "\t${3:# code...}",
+            "\t$3",
             "}"
         ],
         "description": "Catch block"
@@ -36,7 +36,7 @@
         "prefix": "fy",
         "body": [
             "finally {",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "Finally block"
