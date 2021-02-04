@@ -4,7 +4,7 @@
         "body": [
             "class ${1:ClassName}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Class block"
@@ -14,7 +14,7 @@
         "body": [
             "class ${1:ClassName} extends ${2:MotherClass}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Class extends block"
@@ -24,7 +24,7 @@
         "body": [
             "class ${1:ClassName} implements ${2:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Class implements block"
@@ -34,7 +34,7 @@
         "body": [
             "class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Class extends and implements block"
@@ -44,7 +44,7 @@
         "body": [
             "abstract class ${1:ClassName}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP abstract Class block"
@@ -54,7 +54,7 @@
         "body": [
             "abstract class ${1:ClassName} extends ${2:MotherClass}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP abstract Class extends block"
@@ -64,7 +64,7 @@
         "body": [
             "abstract class ${1:ClassName} implements ${2:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP abstract Class implements block"
@@ -74,7 +74,7 @@
         "body": [
             "abstract class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP abstract Class extends and implements block"
@@ -84,7 +84,7 @@
         "body": [
             "final class ${1:ClassName}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP final Class block"
@@ -94,7 +94,7 @@
         "body": [
             "final class ${1:ClassName} extends ${2:MotherClass}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP final Class extends block"
@@ -104,7 +104,7 @@
         "body": [
             "final class ${1:ClassName} implements ${2:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP final Class implements block"
@@ -114,7 +114,7 @@
         "body": [
             "final class ${1:ClassName} extends ${2:MotherClass} implements ${3:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP final Class extends and implements block"
@@ -124,7 +124,7 @@
         "body": [
             "interface ${1:InterfaceName}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Interface block"
@@ -134,7 +134,7 @@
         "body": [
             "interface ${1:InterfaceName} extends ${2:Interfaces}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Interface extends block"
@@ -144,7 +144,7 @@
         "body": [
             "trait ${1:TraitName}",
             "{",
-            "\t${0:# code...}",
+            "\t$0",
             "}"
         ],
         "description": "PHP Trait block"
