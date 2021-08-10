@@ -13,6 +13,16 @@
         ],
         "description": "PHP open tag"
     },
+    "PHP open tag with strict types": {
+        "prefix": "pos",
+        "body": [
+            "<?php",
+            "\n",
+            "declare(strict_types=1);",
+            "\n"
+        ],
+        "description": "PHP open tag with strict types enabled"
+    },
     "PHP close tag": {
         "prefix": "pc",
         "body": [
