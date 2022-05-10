@@ -9,7 +9,7 @@
 
 [![PSR-1](https://img.shields.io/badge/Standard-PSR--1-%2326A69A.svg)](https://www.php-fig.org/psr/psr-1/)
 [![PSR-2](https://img.shields.io/badge/Standard-PSR--2-%2326A69A.svg)](https://www.php-fig.org/psr/psr-2/)
-[![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
+[![PSR-12](https://img.shields.io/badge/Standard-PSR--12-%2326A69A.svg)](https://www.php-fig.org/psr/psr-12/)
 
 **This [VScode extension](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) provide a fullset of snippets for PHP devs. It's pretty simple !**
 
